@@ -1,0 +1,13 @@
+Shell - Programs that allows text-based interaction between user and operating system.
+Home directory is represented by ~ symbol.
+
+Internal commands are part of shell itself. About 30 internal/built-in commands are there. Ex: echo, cd, pwd etc.
+External commands are binary program or script which is located in distinct files in the system. Comes pre-installed or can be created and used by the user. Ex: mv, date, uptime etc.
+
+1. type echo     - Prints whether echo is internal/built-in command or external command.
+2. uptime        - This commands shows how long the system is running since the last reboot.
+3. echo -n Hello - Prints Hello without a trailing line after.
+4. mkdir command can create multiple directories with single mkdir command usage. mkdir Asia Africa India
+   mkdir -p India/Mumbai - This command creates India directory and also Mumbai directory inside India.
+5. cd - Just using cd with no argument changes the directory to home directory.
+   cd .. - Goes one directory up.
