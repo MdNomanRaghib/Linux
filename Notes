@@ -7,7 +7,10 @@ External commands are binary program or script which is located in distinct file
 1. type echo     - Prints whether echo is internal/built-in command or external command.
 2. uptime        - This commands shows how long the system is running since the last reboot.
 3. echo -n Hello - Prints Hello without a trailing line after.
-4. mkdir command can create multiple directories with single mkdir command usage. mkdir Asia Africa India
+4. mkdir command can create multiple directories with single mkdir command usage. Ex: mkdir Asia Africa India
    mkdir -p India/Mumbai - This command creates India directory and also Mumbai directory inside India.
 5. cd - Just using cd with no argument changes the directory to home directory.
    cd .. - Goes one directory up.
+6. mv command is used to move or rename a directory or file. Ex: mv "Source" "Destination" and mv "Old Name" "New Name"
+7. cp command is used to copy file or directory. Use cp -r to copy recursively.
+8. rm is used to delete a file or directory.Use rm -r for deleting directory recursively.
