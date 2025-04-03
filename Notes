@@ -14,3 +14,6 @@ External commands are binary program or script which is located in distinct file
 6. mv command is used to move or rename a directory or file. Ex: mv "Source" "Destination" and mv "Old Name" "New Name"
 7. cp command is used to copy file or directory. Use cp -r to copy recursively.
 8. rm is used to delete a file or directory.Use rm -r for deleting directory recursively.
+9. cat command to read or write or append file. Ex: cat file.txt, cat > file.txt, cat >> file.txt (Ctrl+D to exit while using >)
+10. touch command to create a file.
+11. more file.txt (view file) Use space 
